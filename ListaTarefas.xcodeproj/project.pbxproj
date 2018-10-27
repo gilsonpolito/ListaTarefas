@@ -13,6 +13,7 @@
 		8657B3212183CD640097759B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8657B31F2183CD640097759B /* Main.storyboard */; };
 		8657B3232183CD6C0097759B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8657B3222183CD6C0097759B /* Assets.xcassets */; };
 		8657B3262183CD6C0097759B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8657B3242183CD6C0097759B /* LaunchScreen.storyboard */; };
+		8657B32E2183CDE00097759B /* GerenciadorTarefas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657B32D2183CDE00097759B /* GerenciadorTarefas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8657B3222183CD6C0097759B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8657B3252183CD6C0097759B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8657B3272183CD6C0097759B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8657B32D2183CDE00097759B /* GerenciadorTarefas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerenciadorTarefas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8657B3222183CD6C0097759B /* Assets.xcassets */,
 				8657B3242183CD6C0097759B /* LaunchScreen.storyboard */,
 				8657B3272183CD6C0097759B /* Info.plist */,
+				8657B32D2183CDE00097759B /* GerenciadorTarefas.swift */,
 			);
 			path = ListaTarefas;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8657B32E2183CDE00097759B /* GerenciadorTarefas.swift in Sources */,
 				8657B31E2183CD640097759B /* SecondViewController.swift in Sources */,
 				8657B31A2183CD640097759B /* AppDelegate.swift in Sources */,
 				8657B31C2183CD640097759B /* FirstViewController.swift in Sources */,
